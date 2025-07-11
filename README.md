@@ -1,6 +1,7 @@
 # 📚 30 Days of Algebra with Python
 
 🚀 Welcome to my **30-Day Algebra Challenge** — a hands-on journey from **basic to advanced Algebra**, powered by **Python**.
+![cover](./Cover.png)
 
 Whether you're a beginner in math, a coder wanting to solidify algebra, or a data science student (like me!), this project is for YOU.
 
