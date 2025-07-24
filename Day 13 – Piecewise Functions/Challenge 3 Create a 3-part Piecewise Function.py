@@ -1,4 +1,3 @@
-# challenge3_three_cases.py
 import numpy as np
 import matplotlib.pyplot as plt
 

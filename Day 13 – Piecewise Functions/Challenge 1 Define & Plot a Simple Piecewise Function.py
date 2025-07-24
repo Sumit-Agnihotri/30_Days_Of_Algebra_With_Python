@@ -1,4 +1,3 @@
-# challenge1_basic_piecewise.py
 import numpy as np
 import matplotlib.pyplot as plt
 

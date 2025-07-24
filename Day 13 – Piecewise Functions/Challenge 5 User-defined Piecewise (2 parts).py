@@ -1,4 +1,3 @@
-# challenge5_user_piecewise.py
 from sympy import symbols, Piecewise, sympify
 
 x = symbols('x')
