@@ -1,14 +1,13 @@
-from sympy import symbols
+from sympy import symbols, factor
 import numpy as np
 import matplotlib.pyplot as plt
 from sympy import lambdify, factor
 
 x = symbols('x')
-expr = x**2 + 5*x + 6
-factored = factor(expr)
+expr = x**2 + 5*x + 6\
 
 f_exp = lambdify(x, expr, 'numpy')
-f_factored = lambdify(x, factored, 'numpy')  # Should give same output
+f_factored = lambdify(x, factor(expr), 'numpy')  # Should give same output
 
 x_vals = np.linspace(-10, 5, 400)
 plt.plot(x_vals, f_exp(x_vals), label='Original')
