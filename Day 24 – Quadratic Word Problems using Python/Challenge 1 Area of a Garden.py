@@ -1,4 +1,4 @@
-from sympy import symbols, Eq, solve, simplify
+from sympy import symbols, Eq, solve
 
 w = symbols('w')  # width
 l = w + 5          # length
